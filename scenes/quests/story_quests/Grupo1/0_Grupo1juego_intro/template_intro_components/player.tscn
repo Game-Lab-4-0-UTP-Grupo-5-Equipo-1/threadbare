@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bf4bdpifb0126"]
+
+[ext_resource type="PackedScene" uid="uid://iu2q66clupc6" path="res://scenes/game_elements/characters/player/player.tscn" id="1_fpbyu"]
+
+[node name="Player" type="Node2D"]
+scale = Vector2(1.00749, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_fpbyu")]
+position = Vector2(131, 463)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+process_mode = 3
+zoom = Vector2(1.7, 1.7)
+limit_left = 0
+limit_top = 0
+position_smoothing_enabled = true
+editor_draw_limits = true
