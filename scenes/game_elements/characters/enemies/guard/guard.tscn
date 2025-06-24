@@ -213,11 +213,11 @@ polygon = PackedVector2Array(302, 48, 283, 52, 279, 52, 101, 114, 98, 114, 79, 1
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(0, -16)
+position = Vector2(53, -71.5)
+scale = Vector2(2.65625, 2.73438)
 sprite_frames = ExtResource("5_mswbt")
 animation = &"idle"
-autoplay = "idle"
-frame = 4
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_nv25s")
