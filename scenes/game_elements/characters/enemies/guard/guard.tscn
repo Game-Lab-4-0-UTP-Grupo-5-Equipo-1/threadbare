@@ -217,7 +217,7 @@ position = Vector2(53, -71.5)
 scale = Vector2(2.65625, 2.73438)
 sprite_frames = ExtResource("5_mswbt")
 animation = &"idle"
-frame_progress = 1.0
+frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_nv25s")
