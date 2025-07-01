@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="MemoryItem" load_steps=3 format=3 uid="uid://p01bdlof0n1n"]
+
+[ext_resource type="Script" uid="uid://d4fb4i3qrg27u" path="res://scenes/quests/story_quests/Grupo1/0_Grupo1juego_intro/Recuerdo asset/MemoryItem.gd" id="1_ojkfb"]
+[ext_resource type="Texture2D" uid="uid://binntlpkykalw" path="res://scenes/quests/story_quests/Grupo1/0_Grupo1juego_intro/Recuerdo asset/PolaroidRecuerdo.png" id="2_7dnku"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_ojkfb")
+world_texture = ExtResource("2_7dnku")
+name = ""
+type = 0
+metadata/_custom_type_script = "uid://d4fb4i3qrg27u"
