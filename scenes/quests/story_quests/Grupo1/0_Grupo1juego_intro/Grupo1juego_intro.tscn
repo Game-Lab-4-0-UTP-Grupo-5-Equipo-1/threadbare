@@ -4491,7 +4491,7 @@ position = Vector2(225, 209)
 script = ExtResource("4_5p8aa")
 dialogue = ExtResource("5_02krq")
 animation_player = NodePath("../OnTheGround/AnimationPlayer")
-next_scene = "uid://coi4lvxir542y"
+next_scene = "uid://esc1f450iaqr"
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Camera2D" type="Camera2D" parent="."]
